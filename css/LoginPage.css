@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --main-color: #ff9f0d;
+    --text-color: #fff;
+    --other-color: #212121;
+    --second-color: #9e9e9e;
+    --bg-color: #111;
+    --big-font : 4.5rem;
+    --h2-font: 2.6rem;
+    --p-font: 1.1rem;
+}
+body{
+    border: 2px solid  var(--main-color);
+    width: 100%;
+    height: 100vh ;
+    background-color: var(--bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+.container{
+    border: 2px solid  var(--main-color);
+    width: 800px;
+    height: 500px;
+}
